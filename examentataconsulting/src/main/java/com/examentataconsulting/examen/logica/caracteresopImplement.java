@@ -82,10 +82,13 @@ public class caracteresopImplement  implements caracterInterface {
      	 	if(count!=contador2palabras) {
      	  		
      	 		
-     	 		if(contador2palabras != count+1     )
-	     	  	  resultfinal=false;
+     	 		if(contador2palabras != count+1 && contador2palabras != count-1    )
+     	 		{
+     	 		  resultfinal=false;
 	     	  		break;
-	     	 
+     	 			
+     	 		}	 
+	     	  	
      	 	
      	 	
      	 	}
